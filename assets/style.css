@@ -1,0 +1,59 @@
+* {
+display: block;
+
+}
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px;
+    align-items: center;
+}
+
+nav {
+color: #fff;
+display: flex;
+flex-direction: row;
+flex-grow: 20px;
+align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+.name {
+    font-size: xx-large;
+    margin-right: auto;
+    font-style: italic;
+}
+li a {
+display: block;
+text-decoration: none;
+color: #fff;
+}
+li a:hover {
+cursor: pointer;
+background-color: palevioletred;
+
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: row;
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        flex-direction: row;
+        
+
+    }   
+}
