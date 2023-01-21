@@ -22,7 +22,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main">
         <profile><picture><img id="avatar" src="./assets/images/20200102_135240.jpg" alt="profile picture of subject and wife"><img id="background" src="./assets/images/mountain cover.jpg" alt="orange sunset behind dark mountain landscape"></picture></profile>
         <section>
             <article id="About" >
@@ -30,20 +30,31 @@
                 <p>You’re disgusting. Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites. The best taco bowls are made in Trump Tower Grill. I love Hispanics! You know, it really doesn’t matter what you write as long as you’ve got a young, and beautiful, piece of text. Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't.</p>
             </article>
         </section>
-        <section>
-            <article id="Work">
+        <section>          
+            <article id="Work" class="row">
                 <h1>My Work So Far</h1>
-                <content class="column">
-                    <button>
-                        <a href="https://jeremiahdorvil.github.io/horiseon-update-challenge/">1st Challenge</a>
-                        <img src="./assets/images/Screenshot.JPG" alt="Horiseon Home Page">
-                    </button>
+                <content class="content">
+                    <div class="column">
+                        <button id="horiseon">
+                            <img src="./assets/images/Screenshot.JPG" alt="Horiseon Home Page"> 
+                            <a href="https://jeremiahdorvil.github.io/horiseon-update-challenge/"> <p> Horiseon Challenge </p></a>
+                        </button>
+                    </div>
                 </content>
-                <content class="column">
-                    <button disabled="disabled"><img src="./assets/images/20201004_164741.jpg" alt="Placeholder Image"></button>
+                <content class="content">
+                    <div class="column">
+                        <button id="randomizer">
+                            <img src="./assets/images/Randomize-Movie.JPG" alt="Movie-Randomizer"> 
+                            <a href="https://cmp75.github.io/Movie-Randomizer/"> <p> Movie Randomizer </p></a>
+                        </button>
+                    </div>
                 </content>
-                <content class="column">
-                    <button disabled="disabled"><img src="./assets/images/20201004_164741.jpg" alt="Placeholder Image"></button>
+                <content class="content">
+                    <div class="column">
+                        <button disabled="disabled">
+                            <img src="./assets/images/20201004_164741.jpg" alt="Placeholder Image">
+                        </button>
+                    </div>
                 </content>
                 <p>I don't think anybody knows it was Russia that wrote Lorem Ipsum, but I don't know, maybe it was. It could be Russia, but it could also be China. It could also be lots of other people. It also could be some wordsmith sitting on their bed that weights 400 pounds. Ok? An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud.</p>
             </article>
@@ -74,5 +85,6 @@
     <footer>
         <h3>Made with 💚 on CSS.</h3>
     </footer>
+
 </body>
 </html>
